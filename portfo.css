@@ -79,7 +79,7 @@ section {
 
 .btn.primary {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(221, 203, 203);
 }
 
 .btn.primary:hover {
@@ -95,7 +95,7 @@ section {
 
 .btn.secondary:hover {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(129, 6, 6);
     transform: translateY(-2px);
 }
 
@@ -157,8 +157,9 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
-    padding: 150px 0 100px;
+    background: linear-gradient(135deg, #2299e9 0%, #d9dfe3 100%);
+    ;
+    padding: 100px 0 100px;
 }
 
 .hero .container {
@@ -250,7 +251,7 @@ nav {
 }
 
 .skill-category {
-    background-color: white;
+    background-color: rgb(76, 189, 207);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -293,7 +294,7 @@ nav {
 }
 
 .project-card {
-    background-color: white;
+    background-color: rgb(20, 225, 225);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -421,9 +422,9 @@ nav {
 
 .timeline-content {
     padding: 20px;
-    background-color: white;
+    background-color: rgb(57, 17, 121);
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(218, 214, 214, 0.05);
 }
 
 .timeline-content h3 {
@@ -473,7 +474,7 @@ nav {
 .contact-item i {
     width: 40px;
     height: 40px;
-    background-color: #e0f2fe;
+    background-color: #1e0eb4;
     color: var(--primary-color);
     border-radius: 50%;
     display: flex;
@@ -490,7 +491,7 @@ nav {
 .social-links a {
     width: 40px;
     height: 40px;
-    background-color: #e0f2fe;
+    background-color: #dc14c5;
     color: var(--primary-color);
     border-radius: 50%;
     display: flex;
@@ -507,7 +508,7 @@ nav {
 
 .contact-form {
     flex: 1;
-    background-color: rgb(147, 10, 10);
+    background-color: rgb(10, 60, 147);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
